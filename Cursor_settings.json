@@ -1,0 +1,53 @@
+{
+    "window.commandCenter": true,
+    "cursor.general.disableHttp2": true,
+    "update.mode": "none",
+    "update.enableWindowsBackgroundUpdates": false,
+    "python.defaultInterpreterPath": "c:\\Users\\MSI-NB\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.activityBar.orientation": "vertical",
+    "workbench.colorTheme": "Noctis Uva",
+    // 自动保存类型：延时后保存
+    "files.autoSave": "afterDelay",
+    // 配置python语言正常输出中文的环境
+    "code-runner.executorMap":{ 
+        "python":"set PYTHONIOENCODING=utf8 && python"
+    }, 
+    // 编辑器自定义语法高亮
+    "editor.tokenColorCustomizations": {
+        // 注释部分颜色
+        "comments": "#9EF1F1",
+        // 自定义 textMate 规则
+        "textMateRules": [
+            {
+                // 行注释自定义
+                "name": "Line comments",
+                "scope": [
+                    // 双斜杠注释
+                    "comment.line.double-slash",
+                    // 井号注释
+                    "comment.line.number-sign",
+                    // 百分号注释
+                    "comment.line.percentage"
+                ],
+                // 设置注释前景色
+                "settings": {
+                    "foreground": "#9EF1F1"
+                }
+            }
+        ]
+    },
+    
+    // 内容滚动及自动换行
+    "editor.wordWrap": "on",
+    "notebook.output.wordWrap": true,
+    "notebook.output.scrolling": true,
+    "editor.wordWrapColumn": 100,
+    "diffEditor.wordWrap": "on",
+
+    "backgroundCover.imagePath": "d:\\rozen_file\\相册\\vs code背景.jpg",
+    "backgroundCover.opacity": 0.25,
+
+    // 显示缩略图
+    "editor.minimap.enabled": true,
+}
