@@ -45,6 +45,7 @@
     "editor.wordWrapColumn": 100,
     "diffEditor.wordWrap": "on",
 
+    // 背景设置
     "backgroundCover.imagePath": "d:\\rozen_file\\相册\\vs code背景.jpg",
     "backgroundCover.opacity": 0.25,
 
