@@ -1,7 +1,6 @@
 {
     "window.commandCenter": true,
     "cursor.general.disableHttp2": true,
-    "update.mode": "none",
     "update.enableWindowsBackgroundUpdates": false,
     "python.defaultInterpreterPath": "c:\\Users\\MSI-NB\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
     "git.openRepositoryInParentFolders": "never",
@@ -51,4 +50,8 @@
 
     // 显示缩略图
     "editor.minimap.enabled": true,
+    "redhat.telemetry.enabled": false,
+
+    // 在新窗口打开文件，不覆盖旧窗口
+    "workbench.editor.enablePreview": false,
 }
