@@ -33,6 +33,18 @@
                 "settings": {
                     "foreground": "#9EF1F1"
                 }
+            },
+            {
+                "name": "Block & Doc comments",
+                "scope": [
+                    // 块注释
+                    "comment.block",
+                    // 文档注释
+                    "comment.block.documentation"
+                ],
+                "settings": {
+                    "foreground": "#4ADF8A"
+                }
             }
         ]
     },
